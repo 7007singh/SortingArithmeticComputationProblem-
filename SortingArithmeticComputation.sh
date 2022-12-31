@@ -9,3 +9,6 @@ echo "$a + $b*$c = $w";
 
 x=$((($a*$b)+$c));
 echo "$a*$b + $c = $x";
+
+y=$(($c+($a/$b)));
+echo "$c + $a/$b = $y";
