@@ -27,3 +27,4 @@ for i in $( echo "${arr[@]}" | tr ' ' '\n' | sort -nr )
 do
   echo $i
 done
+
