@@ -23,7 +23,7 @@ echo "$a%$b + $c = $z";
 arr=($w $x $y $z)
 echo ${arr[@]}
 
-for i in $( echo "${arr[@]}" | tr ' ' '\n' | sort -nr )
+for i in $( echo "${arr[@]}" | tr ' ' '\n' | sort -n )
 do
   echo $i
 done
